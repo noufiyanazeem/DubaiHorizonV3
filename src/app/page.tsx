@@ -1,9 +1,9 @@
 import HeroSection from '@/components/home/hero-section';
 import FeaturedDestinations from '@/components/home/featured-destinations';
 import WhyVisitDubai from '@/components/home/why-visit-dubai';
-import TopExperiences from '@/components/home/top-experiences';
+//import TopExperiences from '@/components/home/top-experiences';
 import Testimonials from '@/components/home/testimonials';
-import PopularPackages from '@/components/home/popular-packages';
+//import PopularPackages from '@/components/home/popular-packages';
 import TravelGuide from '@/components/home/travel-guide';
 import Faq from '@/components/home/faq';
 
@@ -15,9 +15,9 @@ export default function HomePage() {
         <FeaturedDestinations />
       </div>
       <WhyVisitDubai />
-      <TopExperiences />
+     {/* <TopExperiences /> */}
       <Testimonials />
-      <PopularPackages />
+      {/* <PopularPackages /> */}
       <TravelGuide />
       <Faq />
     </div>
